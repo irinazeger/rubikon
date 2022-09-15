@@ -1,0 +1,777 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<meta name="viewport" content="width=1200px">-->
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!--<link rel="apple-touch-icon" href="ссылка на фавикон для apple">
+	<link rel="apple-touch-icon" sizes="72x72" href="ссылка на фавикон для apple">
+	<link rel="apple-touch-icon" sizes="114x114" href="ссылка на фавикон для apple"> -->
+
+    <!-- <meta property="og:image" content="ссылка на картинку для превью"> -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/lightgallery.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!----- header start ----->
+
+        <header class="header-page" id="Header">
+            <div class="container">
+                <div class="header-line">
+                    <a href="" class="logo"><img src="./assets/img/logo.png" alt=""></a>
+                    <nav>
+                        <ul class="header-menu">
+                            <li><a href="#" data-scroll-to="section-catalog">Товари</a></li>
+                            <li><a href="#" data-scroll-to="benefits-section">Про нас</a></li>
+                            <li><a href="#" data-scroll-to="section-gallery">Фото робіт</a></li>
+                            <li><a href="#" data-scroll-to="video-section">Відео</a></li>
+                            <li><a href="#" data-scroll-to="reviews-section">Відгуки</a></li>
+                            <li><a href="#" data-scroll-to="contacts-section">Контакти</a></li>
+                        </ul>
+                    </nav>
+                    <div class="lang-switch">
+                        <a href="" class="uk">UA</a>
+                        <span>/</span>
+                        <a href="" class="en">EN</a>
+                    </div>
+                    <div class="social-links">
+                        <a class="hover-fx"><img src="./assets/img/icons8-facebook-50 (2) 1.svg" alt=""></a>
+                        <a class="hover-fx"><img src="./assets/img/icons8-instagram-50 (2) 1.svg" alt=""></a>
+                        <a class="hover-fx"><img src="./assets/img/icons8-viber-50 (3) 1.svg" alt=""></a>
+                        <a class="hover-fx"><img src="./assets/img/icons8-telegram-app-50 (1) 1.svg" alt=""></a>
+                    </div>
+
+                </div>
+                <div class="header-page__hamburger">
+                    <button class="btn-menu" type="button" data-popup="popup-menu">
+                        <span class="btn-menu__box">
+                            <span class="btn-menu__inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+        </header>
+
+        <!----- header end ------->
+
+        <!----- hero section ------->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-wrap">
+                    <div class="hero-info-wrap">
+                        <div class="hero-title">Натяжні стелі</div>
+                        <div class="hero-subtitle">Ab repellendus nisi sed officia natus obcaecati aperiam quo excepturi omnis ut velit eius aut iste soluta aut doloremque rerum! </div>
+                        <a href="" class="hero-btn"><img src="./assets/img/icons8-phone-50 1.svg" alt="">+38 099-99-99</a>
+                    </div>
+                    <div class="hero-img-wrap"><img src="./assets/img/Rectangle 2.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <!----- hero section end ------->
+
+        <!----- products section ------->
+        <section class="section section-catalog">
+            <div class="container">
+                <div class="section__header">
+                    <div class="title-left">Товари для натяжних стель</div>
+                    <div class="subtitle-left">Ab repellendus nisi sed officia natus obcaecati aperiam quo excepturi omnis ut velit eius aut iste soluta aut doloremque rerum! </div>
+                    <nav class="catalog-nav">
+                        <ul class="catalog-nav__wrapper">
+                            <li class="catalog-nav__item">
+                                <button class="catalog-nav__btn is-active" type="button" data-filter="all">Всі</button>
+                            </li>
+                            <li class="catalog-nav__item">
+                                <button class="catalog-nav__btn" type="button" data-filter="vstavka">Вставка</button>
+                            </li>
+                            <li class="catalog-nav__item">
+                                <button class="catalog-nav__btn" type="button" data-filter="profil">Профіль</button>
+                            </li>
+                            <li class="catalog-nav__item">
+                                <button class="catalog-nav__btn" type="button" data-filter="instrument">Інструмент</button>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="catalog">
+                    <div class="catalog__item" data-category="vstavka">
+                        <div class="product catalog__product">
+                            <picture>
+                                <source type="image/webp" data-srcset="">
+                                <img class="product__img lazy" data-src="./assets/img/image 13.png" alt="">
+                            </picture>
+                            <div class="product__content">
+                                <div class="product__title">Lorem ipsum</div>
+                                <p class="product__description">Ab repeldus nisi sed officia natus obcaecati aAb repellendus nisi sed officia natus obcaecati aperiam quo excepturi omnis ut velit </p>
+                            </div>
+                            <div class="product__footer">
+                                <div class="product__bottom">
+                                    <div class="product__price">
+                                        <span class="product__price-value">850</span>
+                                        <span class="product__currency">&#8372;</span>
+                                    </div>
+                                    <button class="btn product__btn" type="button" data-popup="popup-order">Замовити</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__item" data-category="profil">
+                        <div class="product catalog__product">
+                            <picture>
+                                <source type="image/webp" data-srcset="">
+                                <img class="product__img lazy" data-src="./assets/img/image 13.png" alt="">
+                            </picture>
+                            <div class="product__content">
+                                <div class="product__title">Lorem ipsum</div>
+                                <p class="product__description">Ab repeldus nisi sed officia natus obcaecati aAb repellendus nisi sed officia natus obcaecati aperiam quo excepturi omnis ut velit </p>
+                            </div>
+                            <div class="product__footer">
+
+                                <div class="product__bottom">
+                                    <div class="product__price">
+                                        <span class="product__price-value">850</span>
+                                        <span class="product__currency">&#8372;</span>
+                                    </div>
+                                    <button class="btn product__btn" type="button" data-popup="popup-order">Замовити</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__item" data-category="instrument">
+                        <div class="product catalog__product">
+                            <picture>
+                                <source type="image/webp" data-srcset="">
+                                <img class="product__img lazy" data-src="./assets/img/image 13.png" alt="">
+                            </picture>
+                            <div class="product__content">
+                                <div class="product__title">Lorem ipsum</div>
+                                <p class="product__description">Ab repeldus nisi sed officia natus obcaecati aAb repellendus nisi sed officia natus obcaecati aperiam quo excepturi omnis ut velit </p>
+                            </div>
+                            <div class="product__footer">
+
+                                <div class="product__bottom">
+                                    <div class="product__price">
+                                        <span class="product__price-value">850</span>
+                                        <span class="product__currency">&#8372;</span>
+                                    </div>
+                                    <button class="btn product__btn" type="button" data-popup="popup-order">Замовити</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__item" data-category="instrument">
+                        <div class="product catalog__product">
+                            <picture>
+                                <source type="image/webp" data-srcset="">
+                                <img class="product__img lazy" data-src="./assets/img/image 13.png" alt="">
+                            </picture>
+                            <div class="product__content">
+                                <div class="product__title">Lorem ipsum</div>
+                                <p class="product__description">Ab repeldus nisi sed officia natus obcaecati aAb repellendus nisi sed officia natus obcaecati aperiam quo excepturi omnis ut velit </p>
+                            </div>
+                            <div class="product__footer">
+
+                                <div class="product__bottom">
+                                    <div class="product__price">
+                                        <span class="product__price-value">850</span>
+                                        <span class="product__currency">&#8372;</span>
+                                    </div>
+                                    <button class="btn product__btn" type="button" data-popup="popup-order">Замовити</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__item" data-category="instrument">
+                        <div class="product catalog__product">
+                            <picture>
+                                <source type="image/webp" data-srcset="">
+                                <img class="product__img lazy" data-src="./assets/img/image 13.png" alt="">
+                            </picture>
+                            <div class="product__content">
+                                <div class="product__title">Lorem ipsum</div>
+                                <p class="product__description">Ab repeldus nisi sed officia natus obcaecati aAb repellendus nisi sed officia natus obcaecati aperiam quo excepturi omnis ut velit </p>
+                            </div>
+                            <div class="product__footer">
+
+                                <div class="product__bottom">
+                                    <div class="product__price">
+                                        <span class="product__price-value">850</span>
+                                        <span class="product__currency">&#8372;</span>
+                                    </div>
+                                    <button class="btn product__btn" type="button" data-popup="popup-order">Замовити</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__item" data-category="vstavka">
+                        <div class="product catalog__product">
+                            <picture>
+                                <source type="image/webp" data-srcset="">
+                                <img class="product__img lazy" data-src="./assets/img/image 13.png" alt="">
+                            </picture>
+                            <div class="product__content">
+                                <div class="product__title">Lorem ipsum</div>
+                                <p class="product__description">Ab repeldus nisi sed officia natus obcaecati aAb repellendus nisi sed officia natus obcaecati aperiam quo excepturi omnis ut velit </p>
+                            </div>
+                            <div class="product__footer">
+
+                                <div class="product__bottom">
+                                    <div class="product__price">
+                                        <span class="product__price-value">850</span>
+                                        <span class="product__currency">&#8372;</span>
+                                    </div>
+                                    <button class="btn product__btn" type="button" data-popup="popup-order">Замовити</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__item" data-category="profil">
+                        <div class="product catalog__product">
+                            <picture>
+                                <source type="image/webp" data-srcset="">
+                                <img class="product__img lazy" data-src="./assets/img/image 13.png" alt="">
+                            </picture>
+                            <div class="product__content">
+                                <div class="product__title">Lorem ipsum</div>
+                                <p class="product__description">Ab repeldus nisi sed officia natus obcaecati aAb repellendus nisi sed officia natus obcaecati aperiam quo excepturi omnis ut velit </p>
+                            </div>
+                            <div class="product__footer">
+
+                                <div class="product__bottom">
+                                    <div class="product__price">
+                                        <span class="product__price-value">850</span>
+                                        <span class="product__currency">&#8372;</span>
+                                    </div>
+                                    <button class="btn product__btn" type="button" data-popup="popup-order">Замовити</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__item" data-category="profil">
+                        <div class="product catalog__product">
+                            <picture>
+                                <source type="image/webp" data-srcset="">
+                                <img class="product__img lazy" data-src="./assets/img/image 13.png" alt="">
+                            </picture>
+                            <div class="product__content">
+                                <div class="product__title">Lorem ipsum</div>
+                                <p class="product__description">Ab repeldus nisi sed officia natus obcaecati aAb repellendus nisi sed officia natus obcaecati aperiam quo excepturi omnis ut velit </p>
+                            </div>
+                            <div class="product__footer">
+
+                                <div class="product__bottom">
+                                    <div class="product__price">
+                                        <span class="product__price-value">850</span>
+                                        <span class="product__currency">&#8372;</span>
+                                    </div>
+                                    <button class="btn product__btn" type="button" data-popup="popup-order">Замовити</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__item" data-category="profil">
+                        <div class="product catalog__product">
+                            <picture>
+                                <source type="image/webp" data-srcset="">
+                                <img class="product__img lazy" data-src="./assets/img/image 13.png" alt="">
+                            </picture>
+                            <div class="product__content">
+                                <div class="product__title">Lorem ipsum</div>
+                                <p class="product__description">Ab repeldus nisi sed officia natus obcaecati aAb repellendus nisi sed officia natus obcaecati aperiam quo excepturi omnis ut velit </p>
+                            </div>
+                            <div class="product__footer">
+
+                                <div class="product__bottom">
+                                    <div class="product__price">
+                                        <span class="product__price-value">850</span>
+                                        <span class="product__currency">&#8372;</span>
+                                    </div>
+                                    <button class="btn product__btn" type="button" data-popup="popup-order">Замовити</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----- products section end------->
+        <!----- benefits section start------->
+        <section class="benefits-section">
+            <div class="container">
+                <div class="benefits-wrap">
+                    <div class="benefits-right">
+                        <div class="title-left">Наші переваги</div>
+                        <div class="subtitle-left w469">Ab repeldus nisi sed officia natus obcaecati aAb repellendus nisi sed officia natus obcaecati aperiam quo excepturi omnis ut velit </div>
+                        <div class="benefits-item">
+                            <div class="benefits-icon"><img src="./assets/img/icons8-zoom-selected-all-64 1.svg" alt=""></div>
+                            <div class="benefits-info">
+                                <div class="benefits-title">Перевірений постачальник</div>
+                                <div class="benefits-txt">Ab repellendus nisi sed officia natus obcaecati aperiam quo excepturi</div>
+                            </div>
+                        </div>
+                        <div class="benefits-item">
+                            <div class="benefits-icon"><img src="./assets/img/icons8-zoom-selected-all-64 1.svg" alt=""></div>
+                            <div class="benefits-info">
+                                <div class="benefits-title">Перевірений постачальник</div>
+                                <div class="benefits-txt">Ab repellendus nisi sed officia natus obcaecati aperiam quo excepturi</div>
+                            </div>
+                        </div>
+                        <div class="benefits-item">
+                            <div class="benefits-icon"><img src="./assets/img/icons8-zoom-selected-all-64 1.svg" alt=""></div>
+                            <div class="benefits-info">
+                                <div class="benefits-title">Перевірений постачальник</div>
+                                <div class="benefits-txt">Ab repellendus nisi sed officia natus obcaecati aperiam quo excepturi</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="benefits-img"><img src="./assets/img/Rectangle 3.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <!----- benefits section end------->
+        <!----- gallery section start------->
+        <section class="section-gallery" id="tabs">
+            <div class="container">
+                <div class="title-center">Фото наших робіт</div>
+                <div class="gallery-wrap">
+
+                    <nav>
+                        <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                            <a class="nav-link active" id="nav-all-tab" data-toggle="tab" href="#nav-all" role="tab" aria-controls="nav-all" aria-selected="true">Всі</a>
+                            <a class="nav-link" id="nav-hotel-tab" data-toggle="tab" href="#nav-hotel" role="tab" aria-controls="nav-hotel" aria-selected="false">Глянцеві</a>
+                            <a class="nav-link" id="nav-amenities-tab" data-toggle="tab" href="#nav-amenities" role="tab" aria-controls="nav-amenities" aria-selected="false">Матові</a>
+                            <a class="nav-link" id="nav-rooms-tab" data-toggle="tab" href="#nav-rooms" role="tab" aria-controls="nav-rooms" aria-selected="false">Сатинові</a>
+                            <a class="nav-link" id="nav-rooms-tab" data-toggle="tab" href="#nav-rooms" role="tab" aria-controls="nav-rooms" aria-selected="false">Дворівневі</a>
+                            <a class="nav-link" id="nav-rooms-tab" data-toggle="tab" href="#nav-rooms" role="tab" aria-controls="nav-rooms" aria-selected="false">Парящі</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
+                            <ul id="lightgallery" class="list-unstyle p-0 row">
+                                <li class="col-xs-6 col-sm-4 col-md-4" data-src="./assets/img/Rectangle 3.png">
+                                    <a href="">
+                                        <img class="img-fluid gallery-img" src="./assets/img/Rectangle 3.png" alt="Hotel1" />
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-4 col-md-4" data-src="./assets/img/Rectangle 3.png">
+                                    <a href="">
+                                        <img class="img-fluid gallery-img" src="./assets/img/Rectangle 3.png" alt="Hotel3" />
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-4 col-md-4" data-src="./assets/img/Rectangle 2.png">
+                                    <a href="">
+                                        <img class="img-fluid gallery-img" src="./assets/img/Rectangle 2.png" alt="Amenities1" />
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-4 col-md-4" data-src="./assets/img/Rectangle 2.png">
+                                    <a href="">
+                                        <img class="img-fluid gallery-img" src="./assets/img/Rectangle 2.png" alt="Amenities2" />
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-4 col-md-4" data-src="./assets/img/Rectangle 86.png">
+                                    <a href="">
+                                        <img class="img-fluid gallery-img" src="./assets/img/Rectangle 86.png" alt="Rooms1" />
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-4 col-md-4" data-src="./assets/img/Rectangle 86.png">
+                                    <a href="">
+                                        <img class="img-fluid gallery-img" src="./assets/img/Rectangle 86.png" alt="Rooms2" />
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="nav-hotel" role="tabpanel" aria-labelledby="nav-hotel-tab">
+                            <ul id="lightgallery2" class="list-unstyle p-0 row">
+                                <li class="col-xs-6 col-sm-4 col-md-4" data-src="./assets/img/Rectangle 86.png">
+                                    <a href="">
+                                        <img class="img-fluid gallery-img" src="./assets/img/Rectangle 86.png" alt="Hotel1" />
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-4 col-md-4" data-src="./assets/img/Rectangle 86.png">
+                                    <a href="">
+                                        <img class="img-fluid gallery-img" src="./assets/img/Rectangle 86.png" alt="Hotel2" />
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="nav-amenities" role="tabpanel" aria-labelledby="nav-amenities-tab">
+                            <ul id="lightgallery3" class="list-unstyle p-0 row">
+                                <li class="col-xs-6 col-sm-4 col-md-4" data-src="./assets/img/Rectangle 2.png">
+                                    <a href="">
+                                        <img class="img-fluid gallery-img" src="./assets/img/Rectangle 2.png" alt="Rooms1" />
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-4 col-md-4" data-src="./assets/img/Rectangle 2.png">
+                                    <a href="">
+                                        <img class="img-fluid gallery-img" src="./assets/img/Rectangle 2.png" alt="Rooms2" />
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="nav-rooms" role="tabpanel" aria-labelledby="nav-rooms-tab">
+                            <ul id="lightgallery4" class="list-unstyle row p-0">
+                                <li class="col-xs-6 col-sm-4 col-md-4" data-src="./assets/img/Rectangle 3.png">
+                                    <a href="">
+                                        <img class="img-fluid gallery-img" src="./assets/img/Rectangle 3.png" alt="Amenities1" />
+                                    </a>
+                                </li>
+                                <li class="col-xs-6 col-sm-4 col-md-4" data-src="./assets/img/Rectangle 3.png">
+                                    <a href="">
+                                        <img class="img-fluid gallery-img" src="./assets/img/Rectangle 3.png" alt="Amenities2" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!----- gallery section end------->
+        <!----- video section end------->
+        <section class="video-section">
+            <div class="container">
+                <div class="title-center">Відео про нас</div>
+                <div class="subtitle-center">Ab repellendus nisi sed officia natus obcaecati aperiam quo excepturi omnis ut velit eius aut iste soluta aut doloremque rerum! </div>
+                <div class="slider-wrap-block">
+                    <div class="videos-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide videos">
+                                <div class="videos-card">
+                                    <div class="video-bl" data-video="3nSG5bNKYvY"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide videos">
+                                <div class="videos-card">
+                                    <div class="video-bl" data-video="6jUlU_64-XM"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <!----- video section end------->
+        <!----- reviews section start------->
+        <section class="reviews-section">
+            <div class="container">
+                <div class="review-wrap">
+                    <div class="reviews-left">
+                        <img src="./assets/img/Rectangle 86.png" alt="">
+                    </div>
+                    <div class="reviews-right">
+                        <div class="title-left">Відгуки клієнтів</div>
+                        <div class="slider-wrap-block">
+                            <div class="testimonials-slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide testimonials">
+                                        <div class="testimonial-card">
+                                            <div class="review-txt">Ab repellendus nisi sed officia natus obcaecati aperiam quo excepturi omnis ut velit eius aut iste soluta aut doloremque rerum! </div>
+                                            <div class="review-author">
+                                                <div class="rewiew-img"><img src="./assets/img/Ellipse 28.png" alt=""></div>
+                                                <div class="review-info">
+                                                    <div class="review-name">Mh Jibon</div>
+                                                    <div class="review-rating"><img src="./assets/img/Vector (1).png" alt="">
+                                                        <div class="rating-txt">4.8</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide testimonials">
+                                        <div class="testimonial-card">
+                                            <div class="review-txt">Ab repellendus nisi sed officia natus obcaecati aperiam quo excepturi omnis ut velit eius aut iste soluta aut doloremque rerum! </div>
+                                            <div class="review-author">
+                                                <div class="rewiew-img"><img src="./assets/img/Ellipse 28.png" alt=""></div>
+                                                <div class="review-info">
+                                                    <div class="review-name">Mh Jibon</div>
+                                                    <div class="review-rating"><img src="./assets/img/Vector (1).png" alt="">
+                                                        <div class="rating-txt">4.8</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide testimonials">
+                                        <div class="testimonial-card">
+                                            <div class="review-txt">Ab repellendus nisi sed officia natus obcaecati aperiam quo excepturi omnis ut velit eius aut iste soluta aut doloremque rerum! </div>
+                                            <div class="review-author">
+                                                <div class="rewiew-img"><img src="./assets/img/Ellipse 28.png" alt=""></div>
+                                                <div class="review-info">
+                                                    <div class="review-name">Mh Jibon</div>
+                                                    <div class="review-rating"><img src="./assets/img/Vector (1).png" alt="">
+                                                        <div class="rating-txt">4.8</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="sw-btn sld-prev"><img src="./assets/img/Vector (4).svg" alt=""></button>
+                            <button class="sw-btn sld-next"><img src="./assets/img/Vector (5).svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----- reviews section end------->
+        <!----- contact section start------->
+        <section class="contacts-section">
+            <div class="container">
+                <div class="contacts-wrap">
+                    <div class="contact-txt">
+                        <div class="contact-title">Наші контакти</div>
+                        <div class="contact-desc">E-mail</div>
+                        <div class="contact-link"><a href="mailto:briton.com.ua@ukr.net">briton.com.ua@ukr.net</a> </div>
+                        <div class="contact-desc">Телефон</div>
+                        <div class="contact-link"><a href="tel:0970500550">(097)050 05 50</a> </div>
+                        <div class="contact-desc">Адреса</div>
+                        <div class="contact-link"><a>Хмельницький, вул.Зарічанська, 8</a> </div>
+                        <div class="social-links pt37">
+                            <a class="hover-fx"><img src="./assets/img/icons8-facebook-50 (2) 1.svg" alt=""></a>
+                            <a class="hover-fx"><img src="./assets/img/icons8-instagram-50 (2) 1.svg" alt=""></a>
+                            <a class="hover-fx"><img src="./assets/img/icons8-viber-50 (3) 1.svg" alt=""></a>
+                            <a class="hover-fx"><img src="./assets/img/icons8-telegram-app-50 (1) 1.svg" alt=""></a>
+                        </div>
+
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2594.7428057393226!2d27.00504371586863!3d49.432676268051836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47320788fade87e9%3A0x3fbf5f0083e77b0a!2sBriton!5e0!3m2!1sru!2sua!4v1651764894696!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!----- contact section end------->
+
+    </div>
+    <!-- popup-menu -->
+    <div class="popup popup-menu popup-menu-1">
+        <div class="popup__wrapper">
+            <div class="popup__inner">
+                <div class="popup__content  popup__content--fluid popup__content--centered">
+                    <button class="btn-close popup__btn-close popup-close"></button>
+                    <nav class="mobile-menu popup__mobile-menu">
+                        <ul class="mobile-menu__ul">
+                            <li class="mobile-menu__li">
+                                <a class="mobile-menu__link popup-close" href="#" data-scroll-to="section-catalog">Товари</a>
+                            </li>
+                            <li class="mobile-menu__li">
+                                <a class="mobile-menu__link popup-close" href="#" data-scroll-to="benefits-section">Про нас</a>
+                            </li>
+                            <li class="mobile-menu__li">
+                                <a class="mobile-menu__link popup-close" href="#" data-scroll-to="section-gallery">Фото робіт</a>
+                            </li>
+                            <li class="mobile-menu__li">
+                                <a class="mobile-menu__link popup-close" href="#" data-scroll-to="video-section">Відео</a>
+                            </li>
+                            <li class="mobile-menu__li">
+                                <a class="mobile-menu__link popup-close" href="#" data-scroll-to="reviews-section">Відгуки</a>
+                            </li>
+                            <li class="mobile-menu__li">
+                                <a class="mobile-menu__link popup-close" href="#" data-scroll-to="contacts-section">Контакти</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.popup-menu -->
+
+    <!-- popup-order -->
+    <div class="popup popup-order">
+        <div class="popup__wrapper">
+            <div class="popup__inner">
+                <div class="popup__content">
+                    <button class="btn-close popup__btn-close popup-close"></button>
+                    <p class="popup__subtitle popup__subtitle--order">Залиште свої контакти для уточнення деталей замовлення</p>
+                    <div class="order">
+                        <img class="order__img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                        <h3 class="order__title">
+                            <span class="order-product-title"></span>
+                            <span class="order-product-price"></span> &#8372;
+                        </h3>
+                        <p class="order__size"></p>
+                        <form class="form form-send">
+                            <input class="order-info-title" type="hidden" name="Товар">
+                            <input class="order-info-price" type="hidden" name="Ціна">
+                            <input class="form__input" type="text" name="Ім'я замовника" placeholder="Ваше ім'я" required>
+                            <input class="form__input tel" type="text" name="Телефон" placeholder="Телефон" required>
+                            <button class="btn form__btn" type="submit">Відправити</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.popup-order -->
+
+    <!-- popup-thanks -->
+    <div class="popup popup-thanks">
+        <div class="popup__wrapper">
+            <div class="popup__inner">
+                <div class="popup__content">
+                    <button class="btn-close popup__btn-close popup-close"></button>
+                    <h2 class="page-title popup__title">Дякуємо за замовлення!</h2>
+                    <p class="popup__subtitle">Менеджер зв'яжеться з Вами найближчим часом</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.popup-thanks -->
+
+    <!-- popup-error -->
+    <div class="popup popup-error">
+        <div class="popup__wrapper">
+            <div class="popup__inner">
+                <div class="popup__content">
+                    <button class="btn-close popup__btn-close popup-close"></button>
+                    <h2 class="page-title popup__title">Сталась помилка</h2>
+                    <p class="popup__subtitle">Будь ласка, зробіть замовлення за номером <a class="popup__link" href="+39999999999">+3 (999) 999-99-99</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.popup-error -->
+
+    <footer>
+       <div class="footer-line">
+           <div class="copiright">Copyright &copy; 2022.</div>
+       </div>
+   </footer>
+
+   <link rel="stylesheet" href="./assets/css/animate.css" type="text/css" />
+   <!-- FOR MODAL -->
+   <script src="./assets/js/classie.js"></script>
+   <script src="./assets/js/modalEffects.js"></script>
+   <script src="./assets/js/cssParser.js"></script>
+   <!-- FOR MODAL -->
+
+   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   <script src="./assets/js/jquery.validate.min.js"></script>
+   <script src="./assets/js/jquery.maskedinput.js"></script>
+   <script src="./assets/js/wow.min.js"></script>
+
+   <!-- https://github.com/verlok/vanilla-lazyload#-getting-started---html -->
+   <script src="./assets/js/lazyload.js"></script>
+
+   <!-- Counter -->
+   <script src="./assets/js/counter/jquery.cookie.js"></script>
+   <script src="./assets/js/counter/jquery.plugin.js"></script>
+   <script src="./assets/js/counter/jquery.countdown.js"></script>
+   <script src="./assets/js/counter/jquery.countdown-ru.js"></script>
+   <script>
+       var endDateTime = new Date();
+       var nowDateTime = new Date(3600 * 24 * 1000);
+   </script>
+   <!-- End Counter -->
+   <script src="https://www.youtube.com/iframe_api"></script>
+   <script src="./assets/js/script.js"></script>
+
+   <link rel="stylesheet" href="./assets/css/swiper/swiper-bundle.min.css">
+   <script src="./assets/js/swiper/swiper-bundle.min.js"></script>
+
+   <script>
+       var lazyLoadInstance = new LazyLoad({});
+   </script>
+   <script src="assets/js/jquery-3.5.1.min.js"></script>
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+   <script src="assets/js/lightgallery-all.min.js"></script>
+   <script>
+       $(document).ready(function() {
+           $("#lightgallery").lightGallery();
+           $("#lightgallery2").lightGallery();
+           $("#lightgallery3").lightGallery();
+           $("#lightgallery4").lightGallery();
+       });
+   </script>
+   <script>
+       var swiper1 = new Swiper('.videos-slider', {
+           observer: true,
+           observeParents: true,
+           slidesPerView: 2,
+           spaceBetween: 50,
+           breakpoints: {
+               300: {
+                   slidesPerView: 1,
+                   spaceBetween: 0,
+               },
+               320: {
+                   slidesPerView: 1,
+                   spaceBetween: 0,
+               },
+               567: {
+                   slidesPerView: 1,
+                   spaceBetween: 0,
+               },
+               767: {
+                   slidesPerView: 1,
+                   spaceBetween: 0,
+               },
+               999: {
+                   slidesPerView: 2,
+                   spaceBetween: 0,
+               },
+           }
+
+       });
+       var swiper2 = new Swiper('.testimonials-slider', {
+           observer: true,
+           observeParents: true,
+           slidesPerView: 1,
+           spaceBetween: 55,
+           navigation: {
+               nextEl: '.sld-next',
+               prevEl: '.sld-prev',
+           },
+
+       });
+   </script>
+   <script>
+       window.onscroll = function() {
+           myFunction()
+       };
+
+       var header = document.getElementById("Header");
+       var sticky = header.offsetTop;
+
+       function myFunction() {
+           if (window.pageYOffset > sticky) {
+               header.classList.add("sticky");
+           } else {
+               header.classList.remove("sticky");
+           }
+       }
+   </script>
+
+
+   </body>
+
+   </html>
